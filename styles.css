@@ -1,0 +1,103 @@
+header {
+    background-image: url("images/header-b.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    padding: 10px 2%;
+}
+
+.wordInput {
+    width: 400px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 6px grey;
+    border-radius: 2px;
+}
+
+.button {
+    background-color:white;
+    width: 100px;
+    height: 38px;
+    border: 2px solid white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+input {
+    font-size: 16px;
+    padding-left: 10px;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    width: 100%;
+    font-family: 'Comfortaa';
+}
+
+.items {
+    max-width: 100%;
+} 
+
+.images {
+    column-gap: 1em;
+    margin: 20px auto;
+    column-gap: 1em;
+}
+
+.item {
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+footer {
+    text-align: center;
+    padding: 10px 2%;
+    font-family: 'Comfortaa';
+}
+  
+  @media only screen and (min-width: 1024px) {
+    .images {
+      column-count: 4;
+    }
+  }
+  
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .images {
+      column-count: 3;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) and (min-width: 540px) {
+    .images {
+      column-count: 2;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+      .button {
+          margin-top: 20px;
+      }
+  }
